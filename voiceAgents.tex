@@ -9,6 +9,13 @@
 \newcommand{\done}{\item[\cmark]}
 \newcommand{\crossed}{\item[\xmark]}
 \usepackage{xcolor}
+\usepackage{hyperref}
+
+\hypersetup{
+    colorlinks=true,
+    urlcolor=blue
+}
+
 
 \title{Future of Voice Agents}
 \author{Christopher Hong}
@@ -89,10 +96,17 @@ The iOS app is a polished minimum-viable product that will be launched soon from
 
 \begin{frame}
 \frametitle{Prototype case: Gym Working Logging App}
-Research results below compares "Custom" to SaaS APIs demonstrate the need for better contextualizing tools \\
+Research results below compares ``Custom" to SaaS APIs demonstrate the need for better contextualizing tools \\
+\vspace{1cm}
 \centering
-\includegraphics[height=3cm]{images/preliminary_results.png} \\
-For a whitepaper that delves further in the technical , visit 
+\includegraphics[height=3cm]{images/preliminary_results.png}
+\end{frame}
+
+\begin{frame}
+\frametitle{Prototype case: Gym Working Logging App}
+For a whitepaper that delves further in the technical aspects and justification, visit \\
+\vspace{1cm}
+\url{https://cs.brown.edu/people/ycheng79/csci1952qs23/Top_Project_3_Christopher\%20Hong_Low\%20Latency\%20Streaming\%20Speech\%20Selection.pdf}
 \end{frame}
 
 \begin{frame}
@@ -105,8 +119,15 @@ For a whitepaper that delves further in the technical , visit
 \end{frame}
 
 \begin{frame}
-\frametitle{A General Purpose Technology}
-The technology and capabilities invested are intended to grow into mass-market general purpose technology of connecting voice to code, although the exact form is not clear at this time.
+\frametitle{A Disruptive, General Purpose Technology}
+\begin{itemize}
+    \item Context aware short-form speech recognition is potentially a \textit{disruptive} technology, in the sense used in \href{https://www.amazon.com/Innovators-Dilemma-Technologies-Management-Innovation/dp/1633691780}{The Innovator's Dilemma}
+    \item Big Tech's strategy with voice assistants is to be useful to a wide swath of customers and gravitate them towards their own product ecosystem
+    \item However, this leads voice assistants to be useful to nobody
+    \item The right approach is to meet the needs of niche applications first
+    \item In the end, the invested technology and capabilities can grow into mass-market general purpose technology of connecting voice to code 
+\end{itemize}
+
 \end{frame}
 
 \end{document}
